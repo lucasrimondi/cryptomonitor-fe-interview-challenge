@@ -1,24 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
+
+import { COLORS } from "./components/utils";
+import CoinHistoricPriceDetail from "./pages/CoinHistoricPriceDetail";
+import CoinsDataProvider from "./context/CoinsDataProvider";
+import ExchangesDataProvider from "./context/ExchangesDataProvider";
+import Home from "./pages/Home";
+import Navbar from "./components/Navbar";
+import { ThemeProvider } from "styled-components";
+
+const theme = {
+  colors: COLORS,
+};
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <ThemeProvider theme={theme}>
+        <CoinsDataProvider>
+          <ExchangesDataProvider>
+            <Navbar />
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/coin/:id" element={<CoinHistoricPriceDetail />} />
+              <Route path="*" element={<Navigate to="/" replace />} />
+            </Routes>
+          </ExchangesDataProvider>
+        </CoinsDataProvider>
+      </ThemeProvider>
+    </BrowserRouter>
   );
 }
 
