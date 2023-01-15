@@ -1,6 +1,6 @@
 {
   "name": "flixxo-fe-challenge",
-  "homepage": "https://lucasrimondi.github.io/cryptomonitor-fe-interview-challenge/",
+  "homepage": "https://lucasrimondi.github.io/cryptomonitor-fe-interview-challenge",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
