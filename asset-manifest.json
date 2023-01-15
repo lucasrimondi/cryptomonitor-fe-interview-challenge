@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/cryptomonitor-fe-interview-challenge/static/css/main.a806497b.css",
-    "main.js": "/cryptomonitor-fe-interview-challenge/static/js/main.1666c67f.js",
+    "main.js": "/cryptomonitor-fe-interview-challenge/static/js/main.9507bd44.js",
     "static/media/logo-no-background.png": "/cryptomonitor-fe-interview-challenge/static/media/logo-no-background.6652e9ec769e3d7da1b1.png",
     "index.html": "/cryptomonitor-fe-interview-challenge/index.html",
     "main.a806497b.css.map": "/cryptomonitor-fe-interview-challenge/static/css/main.a806497b.css.map",
-    "main.1666c67f.js.map": "/cryptomonitor-fe-interview-challenge/static/js/main.1666c67f.js.map"
+    "main.9507bd44.js.map": "/cryptomonitor-fe-interview-challenge/static/js/main.9507bd44.js.map"
   },
   "entrypoints": [
     "static/css/main.a806497b.css",
-    "static/js/main.1666c67f.js"
+    "static/js/main.9507bd44.js"
   ]
 }
