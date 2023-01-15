@@ -9,7 +9,12 @@ const Navbar = () => {
       <GithubLogo
         src={githubLogo}
         alt="github-logo"
-        onClick={() => console.log("a github")}
+        onClick={() =>
+          window.open(
+            "https://github.com/lucasrimondi/cryptomonitor-fe-interview-challenge",
+            "_blank"
+          )
+        }
       />
     </NavbarContainer>
   );
