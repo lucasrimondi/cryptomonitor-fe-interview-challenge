@@ -33,8 +33,6 @@ To Start Server:
 - Context API
 - axios
 - styled-components
-- CSS custom properties
-- Flexbox
 - react-chartjs-2
 - moment 
 - react-router-dom
