@@ -1,4 +1,4 @@
-import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
+import { HashRouter, Navigate, Route, Routes } from "react-router-dom";
 
 import { COLORS } from "./components/utils";
 import CoinHistoricPriceDetail from "./pages/CoinHistoricPriceDetail";
@@ -14,7 +14,7 @@ const theme = {
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <ThemeProvider theme={theme}>
         <CoinsDataProvider>
           <ExchangesDataProvider>
@@ -27,7 +27,7 @@ function App() {
           </ExchangesDataProvider>
         </CoinsDataProvider>
       </ThemeProvider>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
