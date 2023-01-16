@@ -7,7 +7,7 @@
 
 This is a solution to a frontend interview challenge. It was developed with ReactJS and managing app's state with Context API. The main goal of this challenge was to fetch and display cryptocurrencies and exchanges' data from the [coingecko API](https://www.coingecko.com/es/api/documentation) creating a smooth and friendly user interface. It is a fully responsive web app developed without using any styling frameworks where users should be able to:
 
-- View top cryptocurrencies current price.
+- View top cryptocurrencies updated current price.
 - Analize theirs historical daily price of the last 3 months.
 - Monitor, rank and compare the activity of the most trusted cryptocurrencies Exchanges by trading volume (24 h).
 
