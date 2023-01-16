@@ -11,7 +11,7 @@ This is a solution to a frontend interview challenge. It was developed with Reac
 - Analize theirs historical daily price of the last 3 months.
 - Monitor, rank and compare the activity of the most trusted cryptocurrencies Exchanges by trading volume (24 h).
 
-## Installation 💾
+## Install 💾
 
 Clone down this repository. You will need `node` and `npm` installed globally on your machine.
 
